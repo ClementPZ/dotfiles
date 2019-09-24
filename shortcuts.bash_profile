@@ -5,11 +5,11 @@ alias dir='ls -alr'
 
 alias gwm='cd ~/gits/wilsonmar/wilsonmar.github.io;git status'
 alias gf='cd ~/gits/wilsonmar/futures;git status'
-
 alias gs='git status'
 alias ga='git add .'
 alias gc='git commit -m'
-
+alias gp='git push origin master'
+alias gph='git push heroku master'
 alias gb='git branch -avv'
 alias gf='git fetch;git diff master..origin/master'
 alias gm='git merge origin/master'
